@@ -7,7 +7,10 @@ export default function Navbar() {
     <ul className={styles.navbar}> 
       <li> 
         <Link href="/">Home</Link> 
-      </li> 
+      </li>
+      <li>
+        <Link href="/todos">Tarefas</Link>
+      </li>
       <li> 
         <Link href="/products">Produtos</Link> 
       </li> 
