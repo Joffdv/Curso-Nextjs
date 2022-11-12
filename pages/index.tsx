@@ -14,6 +14,7 @@ export default function Home() {
         ></meta>
       </Head>
       <h1 className={styles.title}>Hello World Next!</h1>
+      <img src="/city.jpg" width="100%" height="100%"/>
     </>
   )
 }
